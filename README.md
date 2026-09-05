@@ -1241,19 +1241,25 @@ Du kan eksempelvis bruge denne tabel:
 
 | Side | Performance før | Performance efter | Accessibility efter |
 |---|---:|---:|---:|
-| `index.html` |  |  |  |
-| `news.html` |  |  |  |
-| `games.html` |  |  |  |
-| `contact.html` |  |  |  |
+| `index.html`   | 75 | 100 | 100 |
+| `news.html`    | 75 | 100 | 100 |
+| `games.html`   | 75 | 96 | 100 |
+| `contact.html` | 75 | 99 | 100 |
 
 Skriv derefter kort:
 
 1. Hvilke ændringer gav den største performanceforbedring?
+    at ændre banner billedets reele størrelse i img mappen
 2. Hvilke accessibility-problemer fandt du?
+    der var ikke labels på input felter
 3. Hvilke problemer kunne Lighthouse finde?
+    billedernes størrelse og fil format var for stort
 4. Hvilke problemer fandt WAVE?
+    ikke alle tekst og baggrundsfarve kombinationer levede op til wcag's regler om farvekontraster 
 5. Hvilke problemer krævede HeadingsMap eller manuel kontrol?
+    at lave den korrekte headingstruktur 
 6. Hvad har du lært om sammenhængen mellem performance og accessibility?
+    at det kan hænge sammen, men perfomance problemer bunder mere i for store filer etc. 
 
 ---
 
