@@ -7,7 +7,7 @@ p{
   font-size: 18px;
 }
 header{
-  background-color: #F63232;
+  background-color: #B00C0C;
   padding: 20px 0;
   text-align: center;
   position: fixed;
@@ -33,7 +33,7 @@ header span{
 }
 .banner .welcome{
   background:#FEB614;
-  color: white;
+  color: #620404;
   padding: 30px;
   font-size: 60px;
   position: absolute;
@@ -75,7 +75,7 @@ nav li a:hover{
   text-decoration: underline;
 }
 nav li a.join{
-  color: #F63232;
+  color: #B00C0C;
 }
 main{
   max-width: 100%;
@@ -86,7 +86,7 @@ main{
   box-sizing: border-box;
 }
 article h2{
-  color: #F63232;
+  color: #B00C0C;
   font-size: 48px;
 }
 article p{
@@ -183,7 +183,7 @@ input[type="submit"]:focus {
     outline: none
 }
 footer{
-  background: #F63232;
+  background: #B00C0C;
   color: white;
   padding: 10px;
   text-align: center;
